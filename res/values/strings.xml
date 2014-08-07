@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Project</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="welreg">Register</string>
+    <string name="welLog">Login</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="reguser">UserName</string>  
+    <string name="regEmail">Email</string> 
+    <string name="regPass">Password</string> 
+    <string name="btnDis">Display</string>
+    <string name="btnBack">Back</string>
+    
+    <string name="logmail">Email Address</string>
+    <string name="logpass">Password</string>
+    <string name="chbox">Show password</string>
+    <string name="btnba">Back</string>
+    <string name="btnsub">Submit</string>
+    
+    
+    
+
+</resources>

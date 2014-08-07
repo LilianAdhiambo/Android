@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <!-- when button clicked -->
+    <item >
+        <shape >
+            <solid 
+                android:color="@color/dark_blue"/>
+            
+            <stroke 
+                android:width="2dp"
+                android:color="@color/dark_gray"/>
+            
+            <corners 
+                android:radius="15dp"/>
+            
+            <padding 
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp"/>
+        </shape>
+    </item>
+    
+    <!-- default style of the button -->
+    <item >
+        <shape >
+            <solid 
+                android:color="@color/douch_blue"/>
+            
+            <gradient 
+                android:startColor="@color/skyblue"
+                android:endColor="@color/DSB"
+                android:angle="270"/>
+            
+            <corners 
+                android:radius="15dp"/>
+            
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+        </shape>
+    </item>
+
+</selector>

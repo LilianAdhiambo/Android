@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/po"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="serif"
+        android:textColor="@color/white"
+        android:text="@string/reguser"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="24dp" />
+
+    <EditText
+        android:id="@+id/etuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/regEmail"
+        android:typeface="serif"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="24dp"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/etmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="19dp"
+        android:typeface="serif"
+        android:textColor="@color/white"
+        android:layout_marginTop="24dp"
+        android:text="@string/regPass" />
+
+    <EditText
+        android:id="@+id/etpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btndis"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:typeface="serif"
+        android:layout_marginLeft="25dp"
+        android:textColor="@color/white"
+        android:background="@drawable/button_style"
+        android:text="@string/btnDis" />
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="75dp"
+        android:background="@drawable/button_style"
+        android:text="@string/btnBack"
+        android:textColor="@color/white"
+        android:typeface="serif" />
+    </LinearLayout>
+
+</LinearLayout>
