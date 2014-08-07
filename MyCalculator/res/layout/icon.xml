@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/po"
+    android:orientation="vertical" >
+
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:text="@string/fnumber" />
+    
+     <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="number" />
+    
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:text="@string/snumber" />
+    
+     <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:text="@string/result" />
+
+     <Button
+           android:id="@+id/btnadd"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+        android:textStyle="italic"
+        android:layout_marginLeft="5dp"
+        android:background="@color/light_green"
+           android:text="@string/btnAdd" />
+
+       <Button
+           android:id="@+id/btnsubtract"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+        android:textStyle="italic"
+        android:layout_margin="5dp"
+        android:background="@color/light_green"
+           android:text="@string/btnsubtract" />
+
+       <Button
+           android:id="@+id/btndivide"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+        android:textStyle="italic"
+        android:layout_margin="5dp"
+        android:background="@color/light_green"
+           android:text="@string/btndivide" />
+       <Button
+        android:id="@+id/btnmultiply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:textStyle="italic"
+        android:layout_margin="5dp"
+        android:background="@color/light_green"
+        android:text="@string/btnmultiply" />
+       
+   <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+        
+
+   <Button
+        android:id="@+id/btnIconsubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:textStyle="italic"
+        android:layout_marginLeft="40dp"
+        android:background="@color/light_green"
+        android:text="@string/btnIconsubmit" />
+
+    <Button
+        android:id="@+id/btnIconcancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="40dp"
+        android:background="@color/light_green"
+        android:textStyle="italic"
+        android:text="@string/btnIconcancel" />
+</LinearLayout>
+
+</LinearLayout>
+

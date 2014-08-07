@@ -1,7 +1,11 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+<<<<<<< HEAD
     tools:context="com.example.project.MainActivity" >
+=======
+    tools:context="com.example.mycollection.Main" >
+>>>>>>> c413b568d32d2156f978729d691e1d8e36028c4c
 
     <item
         android:id="@+id/action_settings"

@@ -1,4 +1,5 @@
 <TextView
+<<<<<<< HEAD
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -9,3 +10,14 @@
         android:textStyle="italic"
 
         />
+=======
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:typeface="serif"
+    android:textSize="14sp"
+    android:textColor="#FFFFFF"
+
+    />
+>>>>>>> c413b568d32d2156f978729d691e1d8e36028c4c

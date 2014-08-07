@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/d"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:typeface="serif"
+        android:textColor="@color/white"
+        android:text="@string/number" />
+
+    <EditText
+        android:id="@+id/etnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvnumber"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/btnIncre"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/tvnumber"
+        android:layout_below="@+id/tvresult"
+        android:layout_margin="10dp"
+        android:layout_marginTop="38dp"
+        android:background="@drawable/button_style"
+        android:text="@string/btnincre"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/btnDecre"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/btnIncre"
+        android:layout_alignBottom="@+id/btnIncre"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:layout_marginRight="41dp"
+        android:background="@drawable/button_style"
+        android:text="@string/btndecre"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/btnIncre"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/button_style"
+        android:text="@string/btnBack"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/tvresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etnumber"
+        android:layout_toLeftOf="@+id/btnback"
+        android:text="@string/result"
+        android:textColor="@color/white"
+        android:typeface="serif" />
+
+</RelativeLayout>

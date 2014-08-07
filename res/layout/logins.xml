@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/d"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:typeface="serif"
+        android:layout_marginTop="10dp"
+        android:text="@string/user" />
+
+    <Button
+        android:id="@+id/btntoast"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/btnback"
+        android:layout_margin="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_style"
+        android:text="@string/toast"
+        android:textColor="@color/white"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/etpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvuser"
+        android:layout_marginTop="76dp"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/tvpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/etpass"
+        android:layout_alignLeft="@+id/tvuser"
+        android:layout_marginBottom="32dp"
+        android:text="@string/pass"
+        android:textColor="@color/white"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/etuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvuser"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <CheckBox
+        android:id="@+id/chshow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/etpass"
+        android:layout_marginTop="20dp"
+        android:text="@string/show"
+        android:textColor="@color/white"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/chshow"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="32dp"
+        android:layout_toRightOf="@+id/chshow"
+        android:background="@drawable/button_style"
+        android:text="@string/back"
+        android:textColor="@color/white"
+        android:typeface="serif" />
+
+</RelativeLayout>

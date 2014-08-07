@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Akirachix</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="buttonDone">Done</string>
+    <string name="buttonCancel">Cancel</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="btnsubmit">submit</string>
+    <string name="btnCancel">cancel</string>
+    <string name="butnCancel">cancel</string>
+    <string name="btnlogin">login</string>
+    <string name="Fname">First Name:</string>
+    <string name="Sname">Second Name:</string>
+    <string name="Em">Email Address:</string>
+    <string name="pswd">password:</string>
+    <string name="email">Email address:</string>
+    <string name="paswd">password:</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_my_test">MyTestActivity</string>
+
+</resources>

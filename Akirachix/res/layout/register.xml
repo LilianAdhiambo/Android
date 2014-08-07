@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/d"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvRegisterFname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Fname"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/etRegisterFname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/tvRegisterSname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Sname"
+        android:textStyle="italic"
+        android:textSize="15sp"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/etRegisterSname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tvRegisterEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Em"
+        android:textStyle="italic"
+        android:textSize="15sp"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/etRegisterEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/tvRegisterPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/paswd"
+        android:textStyle="italic"
+        android:textSize="15sp"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/etRegisterPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+    
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    
+
+ 
+
+   <Button
+        android:id="@+id/btnRegisterSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#B2E24A"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="35dp"
+        android:layout_weight="1"
+        android:text="@string/btnsubmit" />
+
+    <Button
+        android:id="@+id/btnRegisterCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="35dp"
+        android:background="#B2E24A"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:text="@string/btnCancel" />
+    
+    </LinearLayout>
+
+
+</LinearLayout>
+

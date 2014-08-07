@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/po"
+    android:orientation="vertical"  >
+
+    <TextView
+        android:id="@+id/tvLoginEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_margin="5dp"
+        android:textStyle="italic"
+        android:text="@string/logEmail" />
+
+    <EditText
+        android:id="@+id/etLoginEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please enter Your Email"
+        android:textSize="10sp"
+        android:textStyle="italic"
+        android:textColor="@color/white"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/tvLoginPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:layout_margin="5dp"
+        android:textColor="@color/white"
+        android:text="@string/logPswd" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:hint="please enter your password"
+        android:textSize="10sp"
+        android:textStyle="italic"
+        android:ems="10" />
+    
+    
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/btnLoginCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:textStyle="italic"
+        android:background="@color/light_green"
+        android:text="@string/logbtncancel" />
+
+    <Button
+        android:id="@+id/btnLoginSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:background="@color/light_green"
+        android:textStyle="italic"
+        android:text="@string/logbtnSubmit" />
+    </LinearLayout>
+
+</LinearLayout>

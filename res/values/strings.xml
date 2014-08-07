@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+<<<<<<< HEAD
     <string name="app_name">Project</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
@@ -23,5 +24,112 @@
     
     
     
+=======
+    <string name="app_name">MyCollection</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add">Add</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_counter">Counter</string>
+    <string name="title_activity_geek">Geek</string>
+    <string name="title_activity_main">Main</string>
+    <string name="fnumber">first Number</string>
+    <string name="snumber">second Number</string>
+    <string name="result">Result:</string>
+    <string name="btnAdd">Add</string>
+    <string name="btnSub">subtract</string>
+    <string name="btnBack">Back</string>
+    <string name="user">username</string>
+    <string name="pass">passsword</string>
+    <string name="show">show password</string>
+    <string name="toast">Toast</string>
+    <string name="back">Back</string>
+    <string name="number">Enter number</string>
+    <string name="btnincre">Increment</string>
+    <string name="btndecre">Decrement</string>
+    <string name="text">Text</string>
+    <string name="display">Display</string>
+    <string name="title_activity_logins">Logins</string>
+    <string name="title_activity_geeks">Geeks</string>
+    <string name="title_activity_counters">Counters</string>
+    <string name="title_activity_add_sub">Add_sub</string>
+    <string name="title_activity_tabs">TabsActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_contact">ContactActivity</string>
+    <string name="story">        I also have a solid ethic background with a professional
+commitment and responsibility as well as an excellent attitude 
+to deal with people, a high ommunicative outlook and enhanced 
+leadership skills, adaptability to changing situations. 
+I am good at working in a team, persistent 
+and aimed to get the best results. I am a confident, 
+highly driven graduate with practical hands-on customer 
+service and travel experience. Resourceful and proactive, 
+I combine effective communication skills with detailed 
+product knowledge to identify commercial opportunities 
+and deliver a satisfactory outcome for both customer and 
+company whilst working alone and as part of a larger team. 
+I am currently looking for an opportunity to further
+ my career within the travel and tourism industry.</string>
+    <string name="head">contact form</string>
+    <string name="name">Name</string>
+    <string name="add">Address</string>
+    <string name="sub">subject</string>
+    <string name="mess">messsage</string>
+    <string name="btnsub">submit</string>
+    <string name="btncan">Cancel</string>
+    <string name="histo">     I am a Professional with a high creative capability based
+      on a scientific, technological and researcher background 
+      which allow me to plan, design,built, control, pinpoint, 
+      manage, assess, standardize and advice at everything about
+       electrical system field specifically on generation, 
+       transportation, distribution, wirings and electrical 
+       signal analysis attempting to use these resources in 
+       a efficiently way,Currently living in Australia .
+        I also have a solid ethic background with a professional
+         commitment and responsibility as well as an excellent
+          attitude to deal with people, a high ommunicative outlook
+           and enhanced leadership skills, adaptability to changing 
+           situations. Iâ€™m good at working in a team, persistent
+            and aimed to get the best results. I am a confident, 
+            highly driven graduate with practical hands-on customer 
+            service and travel experience. Resourceful and proactive, 
+            I combine effective communication skills with detailed
+             product knowledge to identify commercial opportunities 
+             and deliver a satisfactory outcome for both customer 
+             and company whilst working alone and as part of a larger team.
+             I also have a solid ethic background with a professional commitment
+              and responsibility as well as an excellent attitude to deal with
+               people, a high ommunicative outlook and enhanced leadership skills, 
+               adaptability to changing situations. Iâ€™m good at working in a team, 
+               persistent and aimed to get the best results. I am a confident, highly 
+               driven graduate with practical hands-on customer service and travel experience. 
+               Resourceful and proactive, I combine effective communication skills with detailed 
+               product knowledge to identify commercial opportunities and deliver a satisfactory 
+               outcome for both customer and company whilst working alone and as part of a larger 
+               team. I am currently looking for an opportunity to further my career within the 
+               travel and tourism industry.</string>
+    <string name="topic">About Us</string>
+    <string name="soci">follow us on:</string>
+    <string name="aki">     Education is one of the most important areas for Kenya with of 
+     GDP and some  of Govt expenditure committed to the sector.
+      By providing a platform where children can think and explore new ideas 
+      away from the school curriculum, besides it will also help them review 
+      and add on what they have been learning in the hacker camps this being the 
+      case the children will be more interested in such events and will always look 
+      forward for the next.
+      Through the application the parents can be able to tell how well their children
+       understand things. Entrepreneurship is creativity, from here children 
+       ability to solve problems and their approach towards the same can be noted this 
+       being the case parents will be able to know about the personality of their own 
+       children which in return will enhance good relationship between the two parties 
+       since they will be able to understand each other well.</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="username">Akirachix</string>
+    <string name="phoneNumber">0713424556</string>
+    <string name="btnenter">submit</string>
+    <string name="btndec">cancel</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
+>>>>>>> c413b568d32d2156f978729d691e1d8e36028c4c
 
 </resources>
